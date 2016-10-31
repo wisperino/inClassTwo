@@ -31,6 +31,7 @@ JS is not required for this assignment. However, if you want to add some other f
  - make pull request
  - if you're not a fan of the command line, you can still do all of this through github
  - fork, do your work in a folder locally, drag and drop the folder to the "upload files" interface (using the finder will not allow you to upload an entire folder) and when you are set to commit, make sure you do it to a new branch...it's an option after you upload the files, then make the pull request
+ - there should be no reason to include any other files or libraries for this project
 
 ## Grading
  - make sure everything works, if the code is broken you will lose points
