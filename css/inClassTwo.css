@@ -1,1 +1,37 @@
 /*All css for this project should be in this file only, not in the html file*/
+@keyframes pumpkinExplode {
+
+	from{
+		
+		width:10%;
+	}
+	to {
+		
+		width: 50%; 
+	}
+}
+img.pumpkin{
+	width:  10%;
+    height: 100%;
+	animation-name: pumpkinExplode;
+    animation-duration: 2s;
+    animation-delay: 0.5s;
+	animation-direction: alternate;
+	animation-iteration-count: infinite;
+}
+h1:hover {
+	transform: rotate(180deg);
+}
+p:hover{
+	color: red;
+	font-size: 200%;
+}
+button:active
+{
+	color: white;
+	padding:300px 300px 300px 300px;
+	background-image: url("http://i68.tinypic.com/v7ebgx.png");
+}
+a:hover{
+	text-decoration: none;
+}
